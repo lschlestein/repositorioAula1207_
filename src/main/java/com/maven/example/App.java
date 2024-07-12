@@ -8,5 +8,6 @@ public class App {
         System.out.println(name);
         name = WordUtils.capitalizeFully(name);
         System.out.println(name);
+        System.out.println(WordUtils.capitalizeFully(name));
     }
 }
